@@ -19,6 +19,7 @@
   <li>CSS flex box, position, grid 각각의 사용 용도와 사용법</li>
   <li>인라인 요소, 블록 요소에 대한 이해</li>
   <li>부모/자식 간의 마진 상쇄 및 관계 파악</li>
+  - 부모 요소에 padding 값 넣어 해결
   <li>CSS 그라데이션 속성 사용</li>
   <li>가상 선택자(nth-child)와 가상 클래스(:hover) 사용</li>
 </ul>
