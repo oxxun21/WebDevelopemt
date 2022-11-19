@@ -12,3 +12,13 @@
 <span align="left"><img src="https://user-images.githubusercontent.com/98699927/202708257-0bafc5fb-b19b-4d3a-ae9a-7eaf55136b6e.jpg" width=410 height=200></span>
 <span align="right"><img src="https://user-images.githubusercontent.com/98699927/202708097-684b6318-11f3-4c4b-9b01-c418cbfd0e91.jpg" width=410 height=200></span>
 <span align="right"><img src="https://user-images.githubusercontent.com/98699927/202708112-02327acb-ce72-4be3-a316-c413ca341759.jpg" width=410 height=200></span>
+
+<ul>
+  <li>시맨틱 태그의 올바른 사용법</li>
+  <li>문서 흐름과 HTML 구조에 대한 이해</li>
+  <li>CSS flex box, position, grid 각각의 사용 용도와 사용법</li>
+  <li>인라인 요소, 블록 요소에 대한 이해</li>
+  <li>부모/자식 간의 마진 상쇄 및 관계 파악</li>
+  <li>CSS 그라데이션 속성 사용</li>
+  <li>가상 선택자(nth-child)와 가상 클래스(:hover) 사용</li>
+</ul>
