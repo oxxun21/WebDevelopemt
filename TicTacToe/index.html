@@ -6,24 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tic Tac Toe</title>
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/overlays.css">
+  <link rel="stylesheet" href="./style/configuration.css">
+  <link rel="stylesheet" href="./style/game.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Noto+Serif+KR:wght@300;700&family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
   <script src="./app.js"></script>
 </head>
 <body>
-  <header>
+  <div id="backdrop"></div>
+  <header id="main-header">
     <h1>Play Tic Tac Toe</h1>
     <p>Built with HTML, CSS, JAVASCRIPT</p>
   </header>
 
-  <aside>
+  <aside class="modal" id="config-overlay">
     <h2>Choose your name</h2>
     <form>
-      <div>
+      <div class="form-control">
         <label for="playername">Player name</label>
         <input type="text" name="playername" id="playername" />
       </div>
       <div>
-        <button type="button">Cancel</button>
-        <button type="submit">Confirm</button>
+        <button type="button" class="btn btn-alt">Cancel</button>
+        <button type="submit" class="btn">Confirm</button>
       </div>
     </form>
   </aside>
@@ -36,32 +43,32 @@
           <article>
             <h2>Player 1</h2>
             <h3>PLAYER NAME</h3>
-            <p>X</p>
-            <button>Edit</button>
+            <p class="player-symbol">X</p>
+            <button class="btn btn-alt">Edit</button>
           </article>
         </li>
         <li>
           <article>
             <h2>Player 2</h2>
             <h3>PLAYER NAME</h3>
-            <p>O</p>
-            <button>Edit</button>
+            <p class="player-symbol">O</p>
+            <button class="btn btn-alt">Edit</button>
           </article>
         </li>
       </ol>
-      <button>Start New Game</button>
+      <button class="btn">Start New Game</button>
     </section>
 
     <section id="active-game">
-      <article>
+      <article id="game-over">
         <h3>You won, <span id="winner-name">PLAYER NAME</span></h3>
         <p>Click "Start New Game" above, to start a new game</p>
       </article>
 
-      <p>It's your turn <span id="active-player--name">PLAYER NAME</span></p>
-      <ol>
-        <li></li>
-        <li></li>
+      <p>It's your turn <span id="active-player-name">PLAYER NAME</span></p>
+      <ol id="game-board">
+        <li class="disabled">X</li>
+        <li>O</li>
         <li></li>
 
         <li></li>
