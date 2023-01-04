@@ -23,3 +23,23 @@
   <li>CSS 그라데이션 속성 사용</li>
   <li>가상 선택자(nth-child)와 가상 클래스(:hover) 사용</li>
 </ul>
+
+## Task 3
+<span align="left"><img src="https://user-images.githubusercontent.com/98699927/210556523-2558c43b-9061-4be9-9c0b-6da792843fa2.jpg" width=400 height=250></span>
+<span align="left"><img src="https://user-images.githubusercontent.com/98699927/210556889-4b7676a7-4bed-4f7b-bcac-72fa089d7cc6.jpg" width=400 height=250></span>
+<span align="left"><img src="https://user-images.githubusercontent.com/98699927/210557740-b3ed6510-7c07-4da0-9e5e-608bd05f1d01.jpg" width=400 height=250></span>
+<span align="left"><img src="https://user-images.githubusercontent.com/98699927/210557537-b2d93508-c0d8-480e-83aa-59107f3800fa.jpg" width=400 height=250></span>
+
+<ul>
+  <li>변수 / 상수의 사용</li>
+  <li>다양한 값의 사용</li>
+  <li>DOM과의 상호작용, DOM 드릴링, DOM 탐색</li>
+  <li>elementById, querySelector 등을 통한 요소 선택 방법</li>
+  <li>중첩 반복문 사용</li>
+  <li>addEventListener 등록</li>
+  <li>Form 양식 제출 방법</li>
+  <li>유효성 검사 로직, 경우 처리, 오류 처리 등</li>
+  <li>자바스크립트를 통한 데이터 관리</li>
+  <li>innerHTML, textContent 등을 통한 HTML 관리</li>
+  <li>게임 로직 정리</li>
+</ul>
